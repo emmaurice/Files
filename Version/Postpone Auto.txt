@@ -1,0 +1,17 @@
+strText = "Do You Want To Go To Download Page..?" & Chr(13)
+strText = strText & "NO to postpone for 1Hour or CANCEL to Stop" & Chr(13)
+strText = strText & "Latest Version 307.05"
+strTitle = "The mPlus Update New Version Reminder"
+intType = vbYesNoCancel + vbQuestion + vbDefaultButton2
+
+Set objWshShell = WScript.CreateObject("WScript.Shell")
+intResult = objWshShell.Popup(strText, ,strTitle, intType)
+
+Select Case intResult
+    Case vbYes
+        CreateObject("WScript.Shell").Run "DOWNLOAD-Link.bat"
+    Case vbNo
+        CreateObject("WScript.Shell").Run "1HOUR.vbs"
+    Case vbCancel
+        CreateObject("WScript.Shell").Run "STOP.vbs"
+End Select
