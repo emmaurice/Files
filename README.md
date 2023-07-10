@@ -1,4 +1,4 @@
-Latest Version Info
+Latest Version Info v.307.05
 
 The mPlus v.xx Classic/Open Shell - Shortcut, UI + Light Simple Script & Software Ready Set.
 
