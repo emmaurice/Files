@@ -1,3 +1,5 @@
+Latest Version Info
+
 The mPlus v.xx Classic/Open Shell - Shortcut, UI + Light Simple Script & Software Ready Set.
 
 Net Speed Monitor Taskbar + Saved Setting.
