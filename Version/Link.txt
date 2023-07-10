@@ -1,4 +1,0 @@
-start https://www.em4me.my.id/the-mplus & timeout 2 >nul
-start https://www.icloud.com/iclouddrive/0f8plLCHjk2zBng-K_G4U5drg#The_mPlus-v.307.05
-STOP.vbs
-DEL.bat
